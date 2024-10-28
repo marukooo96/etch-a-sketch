@@ -33,13 +33,13 @@ button {
     flex-direction: row;
 }
 
-.grid {
+.square {
 
     width: 4vh;
     height: 4vh;
     border-style: solid;
 }
 
-.grid:hover {
+/* .grid:hover {
     background-color: black;
-}
+} */
