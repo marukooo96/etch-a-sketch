@@ -26,6 +26,10 @@ function createGrid() {
 function getNumber() {
     let n = prompt("Select the mumber of squares for your grid");
 
+    if (n < 1 || n > 100) {
+        return alert("Please, insert a number between 1 and 100");
+    }
+
     document.getElementById('grid').outerHTML = '';
 
     const grid = document.createElement('div');
