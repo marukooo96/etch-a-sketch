@@ -41,6 +41,6 @@ button {
 
     width: 2vh;
     height: 2vh;
-    border-style: solid;
+    border: 1px solid black;
 }
 
