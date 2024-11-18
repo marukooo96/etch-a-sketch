@@ -17,6 +17,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 button {
     background-color: beige;
 
@@ -25,6 +26,8 @@ button {
     border-style: solid;
 
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #grid {

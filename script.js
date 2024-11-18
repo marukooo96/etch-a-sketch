@@ -1,9 +1,14 @@
 const container = document.getElementById('container');
 createGrid();
 
-const button = document.getElementById('create');
-button.addEventListener('click', function(){
+const buttonCreate = document.getElementById('create');
+buttonCreate.addEventListener('click', function(){
     getNumber();
+});
+
+const buttonClear = document.getElementById('clear');
+buttonClear.addEventListener('click', function(){
+    clearGrid();
 });
 
 
@@ -29,7 +34,7 @@ function createGrid() {
 }
 
 function getNumber() {
-    let n = prompt("Select the mumber of squares for your grid");
+    let n = prompt("Select the mumber of cells for your grid");
 
     if (n < 1 || n > 100) {
         return alert("Please, insert a number between 1 and 100");
@@ -57,4 +62,8 @@ function getNumber() {
             row.appendChild(cell).className = 'cell';
         }
     }
+}
+
+function clearGrid() {
+
 }
